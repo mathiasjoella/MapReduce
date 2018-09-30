@@ -1,0 +1,30 @@
+Today there has been an enormous data explosion due to the new trend and paradigm such as social networks and cloud computing. Moreover, data has been getting more diverse, more complex, and less structured and it also needs to be processed rapidly. This situation has caused a new challenge for the traditional technologies such as relational databases and scale-up infrastructures.
+Literally, big data is a large volume of data so that it is difficult to collect, store, and analyze. However, big data is not just about a large volume of data. It is a concept that provides an opportunity to find useful knowledge into existing data.
+In this context, big data is characterized by 3Vs: Volume, Velocity, and Variety. First of all, there has been the exponential growth in the data storage as data format is diversifying. We can find various data formats such as video, music, and large image files on the social network service channels. It is common to have the storage system of which size is Terabytes or Petabytes.
+Secondly, velocity is often identified with real-time analytics. However, velocity is also about the rate of changes. There was a time when data had been hardly changed or the rate of changes is very low. Yet, today people reply on SNS (Social Network Service) to update their messages. Sometimes, a few seconds old messages is discarded or updated because users are not interested in any more. They often remove old messages and pay attention to recent updates. This high velocity data illustrates big data.
+
+Lastly, data can be stored in multiple formats. For example, the data would be stored in a simple text file or stored in the form of video, SMS, pdf or user defined format. In this case, we should consider how to process a variety formats of data. This variety of data describes big data.
+
+On the other hand, big data also refers to massively parallel and distributed processing architectures in the technology perspective of data processing.
+
+Big data analytics platforms enable users to collect, organize, and analyze large sets of data to discover patterns and other useful information. Big data platforms focus on processing large data and do not support collaboration among users so that it takes enormous time for users to develop services including data collection, data pre-processing, data analysis and algorithm development.
+
+To support more efficient service development environment, we introduce a new collaborative big data analytics platform that helps users concentrate on developing their own services efficiently and rapidly by sharing data, algorithms, and services among them.
+
+This paper is organized as follows. In the next section, we introduce Big Data as a Service (BDaaS) and show the collaborative big data analytics platform for BDaaS. In section 3, we describe CCTV metadata analytics service implemented on the platform. The final section contains concluding remarks and future work.
+There are plenty of use cases using big data analytics such as after-sales service, searching for missing people, smart traffic control system, customer behavior analytics, and crisis management system. In order to provide these analytics services, we traditionally conduct many steps separately such as data collection, data pre-processing, information extraction, and visualization. Therefore, developing separate systems to analyze big data is getting to require high cost and professional knowledge on big data technologies.
+
+Big Data as a Service is the delivery of statistical analysis tools or information by an outside provider that helps organizations understand and use insights gained from large data sets in order to gain a competitive advantages.
+
+Big Data as a Service typically consists of three layers, Big Data Infrastructure as a Service, Big Data Platform as a Service, and Big Data Analytics Software as a Service.
+The purpose of our platform is to provide Big Data as a Service and to enable users to develop cloud service more efficiently. Especially, we have designed collaborative analytics platform with focusing on Big Data Analytics Software as a Service in BDaaS layers
+
+Figure 1 shows the general concept of collaborative big data platform for Big Data as a Service. For these services, the platform provides various web-based service environments and enables resource sharing.
+
+For data owners, the platform offers data management environment. It also provides data scientists and service developers with algorithm and service development environment.
+
+The platform supports role-based access control on data owner, data scientist, service developer, and platform manager. Data owners access to the platform to post their data information and share their own data. Data owners collect various data and register information of data via the web portal.
+
+Data scientists develop and optimize analytics algorithms on the platform. Data scientists can explore and request data registered by data owners and measure the performance of algorithm. Finally, service developers implement analytics services using available components in the workflow-based tool. Service developers can explore and request workflow components registered by other data scientists.
+
+The platform supports collaborative environments to users so that they can reuse other's data and algorithms and concentrate on their own work such as developing algorithms or services.
